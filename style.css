@@ -1,0 +1,1921 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.icon-like.red .icon-like::before{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+/* navbar */
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.nav-menu-btn{
+    display: none;
+    border: 1.5px solid #F3F3F3;
+    padding: 15px;
+    border-radius: 50%
+}
+
+.nav-links-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-uz-wrapper{
+    padding: 12px 8px;
+    background: #5060DB;
+    border-radius: 50%;
+}
+
+.icon-uz-wrapper img{
+    display: block;
+}
+
+.link-categories{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.link-categories p{
+    font-weight: 500;
+    font-family: 'TT Norms Pro';
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1A2134;
+}
+
+.nav-links-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-input{
+    width: 370px;
+    position: relative;
+    
+}
+
+.nav-input input{
+    border: 2px solid #F3F3F3;
+    border-radius: 61px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 20px 73px;
+}
+
+.nav-input input::placeholder{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B2B3BB;
+}
+
+.input-img{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-search{
+    color: black;
+    font-family: 'icons';
+}
+
+.icon-search::before{
+    content: '\f002';
+    font-family: 'icons';
+    font-weight: 400;
+    color: black;
+}
+
+.input-line{
+    width: 2px;
+    height: 32px;
+    background: #E5E5E7;
+    margin-left: 17px;
+}
+
+.right-links{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.bussiness-link{
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #1A2134;
+font-family: 'TT Norms Pro';
+}
+
+.nav-list{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+.icon-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.notification,
+.like{
+    border: 2px solid #F3F3F3;
+    padding: 17px 20px;
+    border-radius: 50%;
+}
+
+.icon-notification{
+    color: black;
+}
+
+.icon-notification::before{
+    content: '\f0f3';
+    font-family: 'icons';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon-like{
+    color: black;
+}
+
+.icon-like::before{
+    content: '\f004';
+    font-family: 'icons';
+    font-weight: 400;
+
+    font-size: 20px;
+}
+
+.nav-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-link{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+background: #3347E6;
+border-radius: 9px;
+padding: 16px 28px;
+}
+
+select{
+    background: #F5F6FA;
+border-radius: 9px;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+text-transform: uppercase;
+font-family: 'TT Norms Pro';
+color: rgba(26, 33, 52, 0.7);
+padding: 16px 13px ;
+border: none;
+outline: none;
+}
+
+.nav-login{
+    display: none;
+    padding: 15px;
+    background: #F5F6FA;
+    border-radius: 50%;
+}
+
+.icon-avatar::before{
+  content: '\f007';
+  font-family: 'icons';
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+/* navbar end */
+
+
+/* header  */
+
+header{
+    background: linear-gradient(94.9deg, #3347E6 0.35%, rgba(51, 71, 230, 0.77) 105.02%);
+    padding: 95px 0;
+}
+
+h1{
+    font-family: 'TT Norms Pro';
+    font-weight: 800;
+font-size: 70px;
+line-height: 82px;
+color: #FFFFFF;
+max-width: 760px;
+width: 100%;
+margin-bottom: 22px;
+}
+
+.header-text h3{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 27px;
+line-height: 32px;
+
+color: #FFFFFF;
+margin-bottom: 50px;
+max-width: 500px;
+width: 100%;
+}
+
+.header-text a{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+padding: 20px 40px;
+color: #1A2134;
+background: #FFFFFF;
+border-radius: 9px;
+}
+
+.header-content{
+    position: relative;
+}
+
+.header-content img{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    max-width: 600px;
+    width: 100%;
+    max-height: 370px;
+    height: 100%;
+}
+/* header end */
+
+/* slider 1 */
+
+.slider1-block{
+    padding: 80px 0;
+}
+
+.slider1-content {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.slider1-top-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider1-titles h5{
+    font-family: 'TT Norms Pro';
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #3347E6;
+}
+
+.slider1-titles h4{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+color: #1A2134;
+}
+
+.slider1-btns{
+    display: flex;
+    gap: 6px;
+}
+
+.slider1-btns button{
+    background: #F7F7F7;
+    border-radius: 7px;
+    padding: 25px;
+    border: none;
+    outline: none;
+}
+
+.icon-prev,
+.icon-next{
+    font-size: 15px;
+}
+
+.icon-prev::before{
+    content: '\f104';
+    font-family: 'icons';
+    font-weight: 400;
+}
+.icon-next::before{
+    content: '\f105';
+    font-family: 'icons';
+    font-weight: 400;
+}
+
+.slider1{
+    /* overflow: hidden; */
+    position: relative;
+    min-height: 520px;
+    overflow: hidden;
+}
+
+.slider1-track{
+    top: 0;
+    display: flex;
+    /* gap: 30px; */
+    transition: all ease .5s;
+    width: 100%;
+    position: absolute;
+    /* overflow: hidden; */
+    
+}
+
+.slider1-items{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    /* overflow: hidden; */
+}
+
+.slider1-item-content{
+    
+
+}
+
+.slider1-item-content h4{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 27px;
+line-height: 32px;
+
+color: #1A2134;
+margin: 20px 0 20px 25px;
+}
+
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 20px 25px 15px;
+}
+
+.level, 
+.people, 
+.rating{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon-level-wrapper, 
+.icon-people-wrapper,
+.icon-rating-wrapper{
+    padding: 12px;
+    border: 1.5px solid #E5E5E5;
+    border-radius: 50%;
+}
+
+.icon-level::before{
+    content: '\f0b1';
+    font-weight: 400;
+    font-family: 'icons';
+}
+.icon-people::before{
+    content: '\f500';
+    font-weight: 400;
+    font-family: 'icons';
+}
+.icon-rating::before{
+    content: '\f005';
+    font-weight: 900;
+    font-family: 'icons';
+}
+
+.course-info p{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: rgba(26, 33, 52, 0.6);
+}
+
+.slider1-item-bottom{
+    display: flex;
+    padding: 15px 22px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher-info{
+    /* width: 100%; */
+    display: flex;
+    gap: 8px
+    ;
+    align-items: center;
+}
+
+.teacher-description h4{
+   margin: 0;
+   font-family: 'TT Norms Pro';
+   font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #1A2134;
+}
+.teacher-description h5{
+    font-family: 'TT Norms Pro';
+   font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(26, 33, 52, 0.6)
+}
+
+.price{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 27px;
+line-height: 32px;
+
+color: #3347E6;
+}
+
+/* slider 1 end */
+
+/* slider 2 */
+
+.slider2-block{
+    padding-bottom: 80px ;
+}
+
+.slider2-top-content{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider2-titles h5{
+    font-family: 'TT Norms Pro';
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #5060DB;
+}
+
+.slider2-titles h4{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+color: #1A2134;
+}
+
+.slider2-btns{
+    display: flex;
+    gap: 6px;
+}
+
+.slider2-btns button{
+    background: #F7F7F7;
+    border-radius: 7px;
+    padding: 25px;
+    border: none;
+    outline: none;
+}
+
+.slider2{
+    /* overflow: hidden; */
+    position: relative;
+    min-height: 520px;
+    overflow: hidden;
+}
+
+.slider2-track{
+    top: 0;
+    display: flex;
+    /* gap: 30px; */
+    transition: all ease .5s;
+    width: 100%;
+    position: absolute;
+    /* overflow: hidden;    */
+}
+
+.slider2-items{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    /* overflow: hidden; */
+}
+
+.slider2-item{
+    position: relative;
+    /* min-width: 460px; */
+    /* min-height: 490px; */
+    min-width: 40%;
+    width: max-content;
+    height: max-content;
+}
+
+.slider2-item img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.slider2-categoria-1{
+    padding: 5px 7px;
+    background: #F3994B;
+border-radius: 6px;
+position: absolute;
+top: 30px;
+left: 30px;
+}
+
+.slider2-categoria-1 p,
+.slider2-categoria-2 p,
+.slider2-categoria-3 p{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+.slider2-item-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slider2-item-content h4{
+    margin-left: 30px;
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 27px;
+line-height: 32px;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.slider2-item-rating{
+    padding: 0 30px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider2-level,
+.slider2-people,
+.slider2-rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.slider2-icon-wrapper{
+    border: 1.5px solid rgba(229, 229, 229, 0.5);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.slider2-icon-wrapper .icon-level,
+.slider2-icon-wrapper .icon-people,
+.slider2-icon-wrapper .icon-rating{
+    color: white;
+}
+
+.slider2-level p,
+.slider2-people p,
+.slider2-rating p{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.slider2-item-bottom{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -13%;
+    display: none;
+}
+
+.slider2-item:hover .slider2-item-bottom{
+    margin-bottom: 0;
+    transition: all .7s ease-in-out;
+    display: flex;
+}
+
+.slider2-item-bottom img{
+    width: 40px;
+    height: 40px;
+}
+
+.slider2-item-bottom h4{
+    font-family: 'TT Norms Pro';
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #1A2134;
+margin: 0;
+}
+
+.slider__dots{
+    margin: 20px auto 0;
+    display: none;
+    gap: 10px;
+   width: max-content;
+}
+
+.comment{
+    min-width: 82%;
+}
+
+.slider__dots li{
+    width: 41px;
+height: 7px;
+background: rgba(223, 225, 245, 0.96);
+border-radius: 36px;
+}
+
+.slider__dots li.active{
+    width: 60px;
+    background: #5060DB;
+    transition: width .3s ;
+}
+
+/* slider 2 end */
+
+/* categories block */
+
+.categories-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.left-text h4{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #3347E6;
+
+}
+
+.left-text h3{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+color: #1A2134;
+}
+
+.right-text{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #3347E6;
+}
+
+.left-link{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #47516C;
+display: none;
+}
+
+.right-link{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+font-family: 'TT Norms Pro';
+color: #3347E6;
+display: none;
+}
+
+.categories{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.categoria{
+    background: #F3F3F3;
+border-radius: 10px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 20px;
+    justify-content: space-between;
+}
+
+.categoria p{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 27px;
+line-height: 32px;
+text-align: center;
+color: #1A2134;
+margin-top: 55px;
+}
+
+.extra-categories{
+    display: none;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.extra-categoria{
+    display: flex;
+    padding: 10px 15px 10px 10px;
+gap: 10px;
+background: #F5F6FA;
+border-radius: 10px;
+align-items: center;
+}
+
+.extra-categoria p{
+    font-family: 'TT Norms Pro';
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #47516C;
+}
+
+.categoria1{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.categoria2{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/* categories block end */
+
+/* ad block */
+
+.teacher-ad{
+    padding: 80px 0;
+}
+
+.teacher-ad-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(274.21deg, rgba(223, 225, 245, 0.39) -8.08%, #FDFDFD 138.6%);
+border-radius: 10px;
+}
+
+.ad-text {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 50px;
+}
+
+.ad-text h3{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+text-transform: uppercase;
+color: #1A2134;
+max-width: 570px;
+width: 100%;
+margin-bottom: 20px;
+}
+
+h3 span{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+text-transform: uppercase;
+
+color: #5060DB;
+}
+
+.ad-text p{
+    font-family: 'TT Norms Pro';
+    font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #1A2134;
+max-width: 460px;
+width: 100%;
+margin-bottom: 30px;
+}
+
+.first-link{
+    background: #3347E6;
+border-radius: 9px;
+font-family: 'TT Norms Pro';
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+padding: 20px;
+width: max-content;
+}
+
+.teacher-ad-info img{
+    margin: 20px 80px 20px 0;
+  /* margin-right: 80px; */
+}
+
+.cosmonaut-2{
+    display: none;
+}
+
+.second-link{
+    display: none;
+    background: #F5F6FA;
+border-radius: 8px;
+padding: 10px 30px;
+font-family: 'TT Norms Pro';
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+color: #5060DB;
+}
+
+/* ad block end */
+
+/* comments slider */
+
+.slider-comments-block{
+    padding: 70px 0;
+}
+
+.comments-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments-titles h5{
+    font-family: 'TT Norms Pro';
+    font-size: 16px;
+line-height: 19px;
+
+color: #3347E6;
+}
+
+.comments-titles h4{
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+}
+
+.slider-comments-track{
+    top: 0;
+    display: flex;
+    /* gap: 30px; */
+    transition: all ease .5s;
+    width: 100%;
+    position: absolute;
+    /* overflow: hidden; */
+}
+
+.slider-comments{
+    position: relative;
+    overflow: hidden;
+    min-height: 275px;
+}
+
+.comments{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.comment{
+    min-width: 47%;
+}
+
+.comment h5{
+    font-family: 'TT Norms Pro';
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #5060DB;
+margin: 20px 20px 10px 20px;
+}
+
+.comment p{
+    font-family: 'TT Norms Pro';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+margin: 0 20px 20px;
+color: #1A2134;
+}
+
+.comment-student{
+    padding: 15px 0 15px 20px;
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.comment-student img{
+    width: 40px;
+    height: 40px;
+}
+
+.student-info h5{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+    color: #5060DB;
+}
+
+.student-info h6{
+    font-family: 'TT Norms Pro';
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: rgba(26, 33, 52, 0.6);
+}
+
+/* comments slider end */
+
+/* footer */
+footer{
+    background: #F5F6FA;
+}
+
+.icon-letter::before{
+    content: '\f0e0';
+    font-weight: 400;
+    font-family: 'icons';
+}
+.icon-phone::before{
+    content: '\f879';
+    font-weight: 400;
+    font-family: 'icons';
+}
+.icon-chat::before{
+    content: '\f1d8';
+    font-weight: 400;
+    font-family: 'icons';
+}
+
+.footer-top{
+    
+    padding: 25px 0;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.footer-top-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contacts{
+    display: flex;
+    gap: 25px;
+}
+
+.contact{
+    display: flex;
+    gap: 10px;
+}
+
+.contact span{
+    font-size: 20px;
+    color: #3347E6;
+}
+
+.contact p{
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #47516C;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icons div{
+    font-size: 24px;
+}
+
+.icon-instagram::before{
+    content: '\e055';
+    font-family: 'icons';
+    font-weight: 450;
+}
+.icon-twitter::before{
+    content: '\f081';
+    font-family: 'icons';
+    font-weight: 450;
+}
+.icon-facebook::before{
+    content: '\f082';
+    font-family: 'icons';
+    font-weight: 450;
+}
+.icon-telegram::before{
+    content: '\f2c6';
+    font-family: 'icons';
+    font-weight: 450;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-list h4{
+    font-weight: 600;
+font-size: 27px;
+line-height: 32px;
+
+color: #47516C;
+}
+
+.footer-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-list li{
+    max-width: 240px;
+}
+
+.footer-list li a{
+    font-family: 'TT Norms Pro';
+    font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: #1A2134;
+opacity: 0.75;
+
+}
+
+.footer-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-btns button{
+    border: none;
+    outline: none;
+    background: #47516C;
+    padding: 12px 22px;
+    display: flex;
+    gap: 7px;
+}
+
+.icon-google,
+.icon-apple{
+    font-size: 30px;
+    color: white;
+}
+
+.icon-google::before{
+    content: '\f3ab';
+    font-weight: 450;
+    font-family: 'icons';
+}
+
+.icon-apple::before{
+    content: '\f179';
+    font-weight: 450;
+    font-family: 'icons';
+}
+
+.btn-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-text p{
+    font-family: 'Gilroy';
+    font-weight: 600;
+font-size: 12px;
+line-height: 13px;
+color: #F5F6FA;
+}
+
+.btn-text h5{
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    color: #F5F6FA;
+}
+
+.footer-bottom{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-logo{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.footer-logo .icon-uz-wrapper{
+    width: max-content;
+}
+.footer-line{
+    height: 50px;
+    width: 1px;
+    background: #B2B3BB;
+}
+
+.footer-bottom p{
+    font-family: 'Gilroy';
+    font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #47516C;
+}
+
+.footer-icons-links{
+    display: none;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.footer-icon-wrapper{
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.footer-icon-wrapper:hover{
+    background: #5060DB;
+box-shadow: 0px 13px 20px rgba(80, 96, 219, 0.45);
+}
+
+.footer-icon-wrapper:hover  div{
+    color: white;
+}
+
+.footer-icon-wrapper div{
+    font-size: 25px;
+}
+
+.icon-home::before{
+    content: '\f015';
+    font-weight: 400;
+    font-family: 'icons';
+}
+.icon-catalog::before{
+    content: '\f0c9';
+    font-weight: 400;
+    font-family: 'icons';
+}
+.icon-home::before{
+    content: '\f015';
+    font-weight: 400;
+    font-family: 'icons';
+}
+.icon-home::before{
+    content: '\f015';
+    font-weight: 400;
+    font-family: 'icons';
+}
+
+/* footer end */
+
+/* media queries */
+
+@media (max-width: 1200px) {
+
+    .slider2{
+        min-height: 440px;
+    }
+
+    .nav-content{
+        padding: 20px;
+    }
+    .nav-links-left{
+        flex-direction: column;
+    }
+    .right-links{
+        gap: 20px;
+    }
+
+    .header-content img{
+        max-width: 450px;
+        max-height: 300px;
+        right: 5%;
+    }
+
+    /* .slider2-item-bottom{
+        margin-bottom: -24%;
+    } */
+}
+
+@media (max-width: 1062px) {
+    .right-links{
+        gap: 0;
+    }
+    .nav-input{
+        width: 300px;
+    }
+}
+
+@media (max-width: 992px){
+
+
+    .slider2-block{
+        padding-bottom: 0;
+    }
+
+    .slider2-item-rating{
+        padding: 0 10px;
+    }
+    
+    .slider2-categoria-1{
+        top: 15px;
+    }
+
+    .slider2-people{
+        display: none;
+    }
+
+    .nav-links-right{
+        flex-wrap: wrap;
+    }
+    .nav-input,
+    .right-links{
+        width: 100%;
+    }
+    .right-links{
+        justify-content: space-between;
+    }
+
+    .header-content img{
+        bottom: -50px;
+        top: unset;
+        height: 300px;
+        width: 450px;
+        right: 4%;
+    }
+
+    h1{
+        font-size: 50px;
+    line-height: 60px;
+    max-width: 500px;
+    }
+
+    .header-text h3{
+        max-width: 450px;
+    }
+
+    header{
+        padding: 60px 0 ;
+    }
+
+    .footer-links{
+        flex-wrap: wrap;
+    }
+
+    .footer-btns{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 55px;
+    }
+
+    .teacher-ad-info{
+        align-items: flex-end;
+    } 
+
+    .teacher-ad-info img{
+        max-width: 200px;
+        width: 100%;
+        max-height: 200px;
+        height: 100%;
+        object-fit: contain;
+        margin-right: 30px;
+    }
+
+    .ad-text h3{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h3 span{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .slider1{
+        min-height: 500px;
+    }
+
+    .slider1-item{
+        min-width: 47%;
+    }
+
+    .slider1-item img{
+        width: 100%;
+        display: block;
+    }
+
+    .teacher-info img{
+         width: 50px;
+        height: 50px;
+    }
+
+    .slider1-item-content h4{
+        font-size: 23px;
+        line-height: 27px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .course-info{
+        padding: 0;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .slider1-item-bottom{
+        gap: 30px;
+    }
+
+    .price{
+        font-size: 24px;
+    }
+
+    .slider-comments-block{
+        padding: 40px 0;
+    }
+
+    .slider-comments{
+        min-height: 330px;
+    }
+
+    .teacher-ad{
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 922px) {
+    .categories{
+        justify-content: center;
+    }
+    .categoria{
+        width: 45%;
+    }
+}
+
+@media (max-width: 822px) {
+    .header-content img{
+        right: 2%;
+    }
+
+   .slider2-item .teacher-info{
+    display: none;
+   }
+
+   .slider2-item-bottom{
+    padding: 10px;
+   }
+
+   .slider2-item-content h4 {
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+   }
+
+   .slider1-block{
+    padding: 40px 0;
+}
+}
+
+@media (max-width: 768px){
+    .slider2{
+        min-height: 320px;
+       
+    }
+
+    .slider2-block{
+        padding-bottom: 40px;
+    }
+
+    .slider2-categoria-1{
+        display: none;
+    }
+
+    .slider2-item-content h4{
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .slider1{
+        min-height: 350px;
+    }
+
+    .slider1-item-content h4{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .course-info{
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .nav-content{
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .nav-links-left{
+        display: none;
+    }
+
+    .nav-menu-btn{
+        display: flex;
+    }
+
+    .right-links{
+        position: fixed;
+    top: 0;
+    right: -300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 227, 227);
+    z-index: 3;
+    width: 280px !important;
+    height: 100vh;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nav-links-right{
+        width: 100%;
+    }
+
+    .nav-login{
+        display: flex;
+    }
+
+    header{
+        padding: 40px 0;
+    }
+
+    .header-content img{
+        max-width: 300px;
+        height: 200px;
+        bottom: 0;
+    }
+
+    .footer-links{
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .footer-list{
+        width: 47%;
+        text-align: center;
+    }
+
+    .footer-list li{
+        max-width: unset;
+    }
+    .footer-top-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-contacts,
+    .footer-icons {
+        width: 100%;
+    }
+
+    .footer-contacts{
+        justify-content: space-around;
+    }
+
+    .footer-icons{
+        margin-top: 30px;
+    }
+
+    .teacher-info{
+        display: none;
+    }
+
+    .level,
+    .people{
+        display: none;
+    }
+
+    .course-info{
+        border-bottom: unset;
+    }
+
+    .slider1-item-bottom{
+        border-top: unset;
+          padding: 0;
+    }
+
+    .slider2-titles h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .slider2-btns{
+        gap: 10px;
+    }
+
+    .slider2-btns button{
+        padding: 15px;
+    }
+
+    .slider2-top-content{
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 690px){
+
+    .comments-top .slider1-btns{
+      display: none;
+    }
+
+   .comments{
+    gap: 10px;
+   }
+
+    .comment{
+        min-width: 100%;
+    }
+
+    .slider__dots{
+        display: flex;
+    }
+
+    .slider2{
+        min-height: 260px;
+    }
+
+    .header-content img{
+        width: 225px;
+        height: 150px;
+    }
+    .left-text,
+    .right-text{
+        display: none;
+    }
+    
+    .left-link,
+    .right-link{
+       display: flex;
+    }
+    .categories{
+        display: none;
+    }
+    .extra-categories{
+        display: grid;
+    }
+}
+
+@media (max-width: 670px){
+
+    .slider-comments{
+        min-height: 250px;
+    }
+
+    .teacher-ad{
+        padding: 60px 20px;
+    }
+
+    .ad-text {
+        margin-left: 20px;
+    }
+    .cosmonaut-1{
+        display: none;
+    }
+
+    .cosmonaut-2{
+        display: flex; 
+        position: absolute;
+        margin: 0 !important;
+        right: 0;
+        top: -20px;
+        max-width: unset !important;
+        max-height: unset !important;
+        width: unset !important;
+        height: unset !important;
+    }
+
+    .teacher-ad-info{
+        background: linear-gradient(283.89deg, #5060DB 0%, rgba(80, 96, 219, 0.81) 100%);
+        position: relative;
+    }
+
+    .ad-text h3{
+        font-size: 30px;
+        line-height: 27px;
+        color: #FFFFFF;
+        max-width: 240px;
+    }
+
+    .ad-text span{
+        font-size: 30px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .ad-text p{
+        display: none;
+    }
+
+    .first-link{
+        display: none;
+    }
+
+    .second-link{
+        display: flex;
+        font-family: 'TT Norms Pro';
+        font-weight: 700 ;
+        font-size: 18px;
+        line-height: 16px;
+        color: #5060DB;
+        padding: 17px 30px;
+        background: #F5F6FA;
+        border-radius: 8px;
+        width: max-content;
+    }
+
+}
+
+@media (max-width: 600px){
+    .categoria{
+        width: 97%;
+        padding: 30px 0;
+    }
+
+    .slider2-level{
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+
+    .teacher-ad{
+        padding: 40px 20px 0;
+    }
+
+    .slider-comments {
+        min-height: 280px;
+    }
+
+    .slider2-titles h5{
+        display: none;
+    }
+
+    .slider2-titles h4{
+        font-size: 19px;
+    }
+
+    .slider2-track{
+        height: 100%;
+    }
+
+    .slider2-item{
+        height: 100% !important;
+    }
+
+    .slider2-item img{
+        object-fit: cover;
+    }
+
+    .header-content img{
+        display: none;
+    }
+
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .header-text h3{
+        margin-bottom: 30px;
+    }
+
+    .slider2-item{
+        min-width: 78%;
+        /* min-height: 300px; */
+    }
+
+    .comments-titles h4{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .cosmonaut-2{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .slider2-titles h4{
+        font-size: 17px;
+    }
+
+    .ad-text h4{
+        font-size: 25px;
+    } 
+    .ad-text span{
+        font-size: 25px;
+    }
+
+    .slider1-block{
+        padding: 20px 0;
+    }
+
+    .slider1{
+        min-height: 400px;
+    } 
+
+    .slider1-titles h4{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .slider1-btns {
+        gap: 12px;
+    }
+
+    .slider1-btns button{
+        padding: 15px;
+    }
+
+    .slider1-items{
+        gap: 20px;
+    }
+
+   .slider1-item{
+    min-width: 97%;
+   }
+
+    .nav-input input{
+        padding-left: 20px;
+        
+    }
+    .input-img{
+        display: none;
+    }
+
+    h1{
+        font-size: 35px;
+    line-height: 40px;
+    }
+    
+    .header-text h3 {
+        font-size: 20px;
+    line-height: 25px;
+    }
+    
+    .categories{
+        display: none;
+    }
+
+    .footer-top{
+        display: none;
+    }
+
+    .footer-info{
+        display: none;
+    }
+
+    .footer-icons-links{
+        display: flex;
+    }
+
+    .cosmonaut-2{
+        display: none;
+    }
+
+    .slider-comments{
+        min-height: 310px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .extra-categoria{
+        grid-column: span 3;
+        
+    }
+
+    .slider1{
+        min-height: 350px;
+    }
+
+    .slider-comments{
+        min-height: 350px;
+    }
+}

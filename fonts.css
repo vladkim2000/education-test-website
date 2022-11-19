@@ -1,0 +1,46 @@
+@font-face {
+    src: url(./assets/fonts/font/TTNormsPro-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-family: 'TT Norms Pro';
+}
+@font-face {
+    src: url(./assets/fonts/font/TTNormsPro-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-family: 'TT Norms Pro';
+}
+@font-face {
+    src: url(./assets/fonts/font/TTNormsPro-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-family: 'TT Norms Pro';
+}
+@font-face {
+    src: url(./assets/fonts/font/TTNormsPro-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-family: 'TT Norms Pro';
+}
+
+@font-face {
+    font-family: 'icons';
+    src: url(./assets/images/icons/fotsawesome/fotsawesome/webfonts/fa-regular-400.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'icons';
+    src: url(./assets/images/icons/fotsawesome/fotsawesome/webfonts/fa-solid-900.ttf) format('truetype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'icons';
+    src: url(./assets/images/icons/fotsawesome/fotsawesome/webfonts/fa-brands-400.ttf) format('truetype');
+    font-weight: 450;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./assets/fonts/font2/Gilroy-Semibold.ttf) format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./assets/fonts/font2/Gilroy-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
